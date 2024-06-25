@@ -1,0 +1,38 @@
+body {
+  background-color: lightgreen;
+  }
+  
+  .ball {
+  width: 200px;
+  height: 200px;
+  background-color: black;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  
+  .whitesurface {
+  width: 100px;
+  height: 100px;
+  background-color: limegreen;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+  
+  .ball-text {
+  width: 70px;
+  color: black;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 80px;
+  }
+  
+  .game-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  }
