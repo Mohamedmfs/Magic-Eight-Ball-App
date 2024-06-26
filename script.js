@@ -1,6 +1,5 @@
 const question = document.querySelector('#question');
 let answer = document.querySelector('#answer');
-let hasAnswered = false;
 const submitBtn = document.querySelector('#submitBtn');
 
 const answers = [
@@ -17,17 +16,14 @@ const answers = [
 ]
 
 const game = () => {
-  if (question.value === '' && hasAnswered === false) {
+  if (question.value === '') {
     return answer.textContent = 'Please ask a question!';
   } else {
-    if (!hasAnswered) {
-      const randomNumber = Math.floor(Math.random() * answers.length);
-      const randomAnswer = answers[randomNumber]
-      answer.textContent = randomAnswer;
-      hasAnswered = true;
-    }
+    const randomNumber = Math.floor(Math.random() * answers.length);
+    const randomAnswer = answers[randomNumber];
+    answer.textContent = randomAnswer;
   }
-  question.reset()
+  question.value = '';
 }
 
 submitBtn.addEventListener('click', game);
