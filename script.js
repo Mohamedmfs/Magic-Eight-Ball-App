@@ -18,7 +18,7 @@ const answers = [
   "Without a doubt",
   "Very doubtful",
   "Ask Dave Chappelle",
-  ""
+  "Am tired of the questions"
 ]
 
 const game = () => {
