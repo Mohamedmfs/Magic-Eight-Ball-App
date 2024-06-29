@@ -6,13 +6,19 @@ const answers = [
   "Yes",
   "No",
   "Maybe",
+  "The Spider",
+  "Anderson Silva",
   "Ask again later",
   "Definitely",
+  "Jiu Jitsu Rocks",
   "I don't think so",
   "Absolutely",
+  "G. Rush St.Pierre",
   "I'm not sure",
   "Without a doubt",
-  "Very doubtful"
+  "Very doubtful",
+  "Ask Dave Chappelle",
+  ""
 ]
 
 const game = () => {
