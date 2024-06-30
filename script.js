@@ -14,6 +14,7 @@ const answers = [
   "I don't think so",
   "Absolutely",
   "G. Rush St.Pierre",
+  "U.F.C",
   "I'm not sure",
   "Without a doubt",
   "Very doubtful",
